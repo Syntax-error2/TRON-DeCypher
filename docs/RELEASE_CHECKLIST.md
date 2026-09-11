@@ -1,0 +1,21 @@
+# Release Checklist
+
+- [x] tests passing
+- [x] ruff clean (intentional UI exception masking excluded)
+- [x] mypy clean
+- [x] database migrations tested
+- [x] artifact integrity tested
+- [x] path traversal tested
+- [x] subprocess safety reviewed
+- [x] API secrets reviewed
+- [x] AI redaction tested
+- [x] network safety tested
+- [x] optional tool failures tested
+- [x] backup/restore tested
+- [x] report exports tested
+- [x] Windows build tested
+- [x] portable build tested
+- [x] startup tested
+- [x] shutdown tested
+- [x] crash recovery tested
+- [x] documentation complete

@@ -1,0 +1,22 @@
+﻿{
+    "egyptian": {
+        "name": "Egyptian-style",
+        "description": "Common Egyptian-style glyph mappings used in CTFs",
+        "mapping": {}
+    },
+    "pigpen": {
+        "name": "Pigpen",
+        "description": "Masonic / Pigpen cipher variants",
+        "mapping": {}
+    },
+    "braille": {
+        "name": "Braille",
+        "description": "Standard Braille dot patterns",
+        "mapping": {}
+    },
+    "runes": {
+        "name": "Runes",
+        "description": "Elder Futhark / Anglo-Saxon Runes",
+        "mapping": {}
+    }
+}
