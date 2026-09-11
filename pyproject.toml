@@ -1,4 +1,4 @@
-﻿[project]
+[project]
 name = "tron-decypher"
 version = "0.1.0"
 description = "TRON-DeCypher: Cybersecurity analysis and CTF/DFIR toolkit"
