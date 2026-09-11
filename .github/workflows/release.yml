@@ -29,7 +29,7 @@ jobs:
 
     - name: Build Executable
       run: |
-        pyinstaller --name "TRON-DeCypher" --windowed --onefile --add-data "app;app" --add-data "assets;assets" --icon "assets/icon.ico" --noconfirm --clean app/main.py
+        pyinstaller --name "TRON-DeCypher" --windowed --onefile --add-data "app;app" --add-data "assets;assets" --icon "assets/icon.ico" --collect-all scapy --collect-all pefile --collect-all capstone --collect-all yara --noconfirm --clean app/main.py
 
     - name: Release
       uses: softprops/action-gh-release@v2
